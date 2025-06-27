@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Honório - Desenvolvedor Back-end</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>João Honório</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Olá, eu sou <span class="highlight">João Honório</span>
+                </h1>
+                <h2 class="hero-subtitle">Desenvolvedor Back-end</h2>
+                <p class="hero-description">
+                    Estudante de Ciência da Computação apaixonado por lógica de programação e modelagem de banco de dados.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="floating-icons">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <img src="assets/icons/python.png" alt="Python">
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <img src="assets/icons/sql.png" alt="SQL">
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <img src="assets/icons/java.png" alt="Java">
+                        </div>
+                        <div class="floating-icon" style="--delay: 3s">
+                            <img src="assets/icons/flutter.png" alt="Flutter">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou desenvolvedor com foco em back-end, com interesse em lógica de programação e modelagem de banco de dados. 
+                        Participei de projetos como o Ludobox, uma plataforma de avaliação de jogos, e uma biblioteca online, 
+                        atuando principalmente na estruturação e implementação do banco de dados.
+                    </p>
+                    <p>
+                        Tenho facilidade em aprender novas tecnologias e estou sempre buscando evoluir como programador.
+                    </p>
+                    <div class="education">
+                        <h3>Formação</h3>
+                        <div class="education-item">
+                            <h4>Ciência da Computação</h4>
+                            <p>UNIMA - Centro Universitário de Maceió</p>
+                            <span class="period">5º Período - Em andamento</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>2+</h3>
+                        <p>Projetos Desenvolvidos</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>4</h3>
+                        <p>Tecnologias Dominadas</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5º</h3>
+                        <p>Período na Faculdade</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/icons/python.png" alt="Python">
+                    </div>
+                    <h3>Python</h3>
+                    <p>Desenvolvimento back-end, automação e análise de dados</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/icons/sql.png" alt="SQL">
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Modelagem e gerenciamento de banco de dados</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/icons/java.png" alt="Java">
+                    </div>
+                    <h3>Java</h3>
+                    <p>Programação orientada a objetos e desenvolvimento de aplicações</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/icons/flutter.png" alt="Flutter">
+                    </div>
+                    <h3>Flutter</h3>
+                    <p>Desenvolvimento de aplicações mobile multiplataforma</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-level="70"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/BrunoSantos751/Ludobox" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://trabalho-engenharia-de-software-phi.vercel.app" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ludobox</h3>
+                        <p>
+                            Site de avaliação de jogos online, como um Letterboxd mas para jogos, 
+                            onde há interação com usuários, seguidores, jogos mais falados e muito mais.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/BrunoSantos751/Laboratorio-de-progama--o" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Biblioteca</h3>
+                        <p>
+                            Projeto simples de biblioteca para um usuário armazenar e buscar livros, 
+                            com dados como autores, gêneros e ano de publicação.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>
+                        Estou sempre aberto a novas oportunidades e colaborações. 
+                        Entre em contato comigo através dos canais abaixo.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:taberbr12@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>taberbr12@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-honorio-barbosa-vieira-de-assis-380643299" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/joaohonorio12" target="_blank" class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 João Honório. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
